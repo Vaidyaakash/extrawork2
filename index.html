@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Checkbox,Radio,Dropdown,Table,Absolute Path and Relative Path</h1>
+    <p>Checkbox :Checkbox is used to select more than one opion</p>
+    <p> Radio :Radio is use to select only one </p>
+    <p>Option for text number email and password id & value will be same in checkbox but name will be different </p>
+
+    <form action="">
+        <input type="checkbox" id="html" name="course" value="html">
+        <label for="html">Html</label><br><br>
+
+        <input type="checkbox" id="css" name="course" value="css">
+        <label for="css">Css</label><br><br>
+        
+        <input type="checkbox" id="js" name="course" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        
+        <input type="radio" id="html1" name="course" value="html">
+        <label for="html1">Html</label><br><br>
+        
+        <input type="radio" id="js1" name="course" value="JavaScript">
+        <label for="js1">JavaScript</label><br><br>
+        
+        <input type="radio" id="css1" name="course" value="Css">
+        <label for="css1">Css</label><br><br>
+        
+        <input type="submit">
+    </form><br><br>
+
+    <label for="cars">Select your car</label>
+    <select name="brands" id="cars">
+        <option value="bmw">BMW</option>
+        <option value="RR">RR</option>
+        <option value="audi">Audi</option>
+        <option value="Mercedes">Mercedes</option>
+    </select><br><br>
+
+    <p>Absolute Path: Which is having full url and that which is taken from online Ex: chrome, Internet image</p>
+    <p>Alt is something whenever the is not rendering we are giving some information to our client</p>
+    <img width="500px" src="https://wallpaperaccess.com/full/40045.jpg" alt="404 error">
+
+    <p>Relative Path: Which is present in our current directory</p>
+    <img width="500px" src="./brand car.jpeg" alt="404 error">
+
+    <h2>Tables</h2>
+    <table border="2" width="600px" height="200px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone No.</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="2">Abhishek</td>
+            <td>20</td>
+            <td>1234567890</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Raju</td> -->
+            <td>21</td>
+            <td>1234567890</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Raju</td>
+            <!-- <td>21</td>
+            <td>1234567890</td> -->
+        </tr>
+
+    </table>
+
+</body>
+</html>
